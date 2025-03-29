@@ -44,6 +44,11 @@ The **User Management App** is a React-based web application built with Vite. It
 
 ---
 
+#live link
+```bash
+https://ggsl-assignment-sable.vercel.app/
+```
+
 ## Installation
 
 Follow these steps to set up the project locally:
@@ -57,4 +62,7 @@ Follow these steps to set up the project locally:
 ```bash
 npm install
 ```
-*
+* Start the development server:
+ ```bash
+ npm run dev
+ ```
