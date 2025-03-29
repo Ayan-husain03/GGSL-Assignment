@@ -4,6 +4,7 @@ import UserList from "./components/UserList";
 import { ToastContainer } from "react-toastify";
 import { Navigate, Route, Routes } from "react-router";
 
+
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
             </ProtectedRoute>
           }
         />
+
       </Routes>
     </>
   );
@@ -26,7 +28,6 @@ function App() {
 export default App;
 
 function ProtectedRoute({ children }) {
-  
   const token = localStorage.getItem("token");
   return token ? children : <Navigate to="/" />;
 }
