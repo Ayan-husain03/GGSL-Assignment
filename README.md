@@ -45,6 +45,8 @@ The **User Management App** is a React-based web application built with Vite. It
 ---
 
 #live link
+[Click here to show](https://ggsl-assignment-sable.vercel.app/)
+- or copy this link
 ```bash
 https://ggsl-assignment-sable.vercel.app/
 ```
